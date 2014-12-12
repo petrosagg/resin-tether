@@ -4,4 +4,4 @@ RUN apt-get -q update && apt-get install -yq python python-dbus --no-install-rec
 
 COPY . /app
 
-CMD ['python', '/app/demo.py']
+CMD ["python", "/app/demo.py"]
