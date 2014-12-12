@@ -28,7 +28,7 @@ if properties['Tethering']:
     # a fixed amount of time
     time.sleep(1)
 
-ssid = os.environ.get('SSID', 'ConnmanAP')
+ssid = os.environ.get('SSID', 'ResinAP')
 print 'Setting SSID to: %s' % (ssid)
 tech.SetProperty('TetheringIdentifier', ssid)
 
